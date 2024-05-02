@@ -26,3 +26,8 @@ function ChildComponent(props) {
 }
 
 export default ChildComponent;
+// Using props with destructuring concept
+    function ChildComponet({Value}){
+        return <button>Childcount{value}</button>
+    }
+export default ChildComponent;
